@@ -5,8 +5,6 @@ class Solution:
             if s[i] != '*':
                 l.append(s[i])
             elif s[i] == '*':
-                l.append(s[i])
-                l.pop()
                 l.pop()
         
         return "".join(l)
